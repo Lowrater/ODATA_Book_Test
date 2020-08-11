@@ -18,6 +18,7 @@ namespace ODATA_books_test.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Book>().OwnsOne(c => c.Location);
+
         }
     }
 }

@@ -1,0 +1,2 @@
+C:\Users\PC\source\repos\Git projects\ODATA_Book_Test\CompanyBroker.Data\obj\Debug\CompanyBroker.Data.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\Git projects\ODATA_Book_Test\CompanyBroker.Data\obj\Debug\CompanyBroker.Data.csproj.CoreCompileInputs.cache
