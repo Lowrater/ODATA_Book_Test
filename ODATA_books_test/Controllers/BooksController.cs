@@ -36,14 +36,14 @@ namespace ODATA_books_test.Controllers
         }
 
         [EnableQuery]
-        public IActionResult Get(int key)
+        public IActionResult Get([FromODataUri] int key)
         {
             return Ok(_db.Books.FirstOrDefault(c => c.Id == key));
         }
 
         // ...
         [EnableQuery]
-        public IActionResult Post([FromBody]Book book)
+        public IActionResult Post([FromBody] Book book)
         {
             _db.Books.Add(book);
             _db.SaveChanges();

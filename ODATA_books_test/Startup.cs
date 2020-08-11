@@ -27,7 +27,7 @@ namespace ODATA_books_test
         {
             services.AddControllers();
 
-            //---- ODATA CONTENT - Dependecny injection
+            //---- ODATA CONTENT 
             services.AddOData();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddDbContext<BookStoreContext>(opt => opt.UseInMemoryDatabase("BookLists"));
